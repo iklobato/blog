@@ -4,7 +4,7 @@ This project is a simple blog API built using FastAPI, PostgreSQL, and Redis. It
 
 ## Screenshots
 <img width="1094" alt="Screenshot 2025-06-28 at 00 38 59" src="https://github.com/user-attachments/assets/c5885bbd-3223-4706-a46b-04e4ea86581d" />
-![Screenshot 2025-06-28 at 00 40 03](https://github.com/user-attachments/assets/507c89b1-7bbc-4fdd-b41d-b96992278aaa)
+![Screenshot 2025-06-28 at 00 40 03](https://github.com/user-attachments/assets/f2504829-cc43-41fe-9195-aad5ae2dce08)
 
 ## Features
 - Create, read, and manage blog posts
