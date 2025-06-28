@@ -2,6 +2,9 @@
 
 This project is a simple blog API built using FastAPI, PostgreSQL, and Redis. It allows users to create blog posts, add comments, and retrieve posts with comments. The application is containerized using Docker and managed with Docker Compose.
 
+## Screenshot
+<img width="1094" alt="Screenshot 2025-06-28 at 00 38 59" src="https://github.com/user-attachments/assets/c5885bbd-3223-4706-a46b-04e4ea86581d" />
+
 ## Features
 - Create, read, and manage blog posts
 - Add comments to posts
