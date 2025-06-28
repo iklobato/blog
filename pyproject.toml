@@ -1,0 +1,39 @@
+[project]
+name = "prosigliere-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lightapi>=0.1.6",
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "test",
+]
+addopts = "-k 'not trio'"
+
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "uv"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-sugar"
+]
+
+[tool.uv]
+
+[tool.black]
+line-length = 140
+
+[tool.ruff.lint]
+select = ["I"]
+
+[tool.ruff]
+fix = true
